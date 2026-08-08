@@ -8,7 +8,7 @@ The project uses the **Iris dataset** and a Machine Learning classification algo
 * 🌱 Iris Versicolor
 * 🌱 Iris Virginica
 
----
+
 
 ## 🎯 Objective
 
@@ -21,7 +21,6 @@ The main objective of this project is to build a Machine Learning model that can
 
 This project also helped me understand the basic Machine Learning workflow, including data loading, data analysis, visualization, model training, evaluation, prediction, and model saving.
 
----
 
 ## 📊 Dataset
 
@@ -45,7 +44,7 @@ The dataset contains three classes:
 
 Each class contains 50 samples.
 
----
+
 
 ## 🛠️ Technologies Used
 
@@ -59,7 +58,6 @@ Each class contains 50 samples.
 * **Jupyter Notebook / VS Code**
 * **Git & GitHub**
 
----
 
 ## 🤖 Machine Learning
 
@@ -87,7 +85,6 @@ New Flower Prediction
 Save Model
 ```
 
----
 
 ## 🔍 Exploratory Data Analysis
 
@@ -135,7 +132,7 @@ Used to visualize relationships between different features and identify how the 
 
 Used to understand the correlation between numerical features.
 
----
+
 
 ## 🧠 Model Training
 
@@ -150,7 +147,7 @@ The data is then split using `train_test_split()`.
 
 The Machine Learning model is trained using the training data and evaluated using the test data.
 
----
+
 
 ## 🔮 Prediction
 
@@ -172,7 +169,7 @@ Example output:
 ['setosa']
 ```
 
----
+
 
 ## 💾 Saving the Model
 
@@ -190,7 +187,7 @@ The saved model can later be loaded without training the model again.
 model = joblib.load("iris_model.pkl")
 ```
 
----
+
 
 ## 📁 Project Structure
 
@@ -209,20 +206,7 @@ Iris-Flower-Classification/
     └── heatmap.png
 ```
 
-If you are using a Jupyter Notebook, you can instead have:
 
-```text
-Iris-Flower-Classification/
-│
-├── Iris_Flower_Classification.ipynb
-├── iris_model.pkl
-├── requirements.txt
-├── README.md
-│
-└── images/
-```
-
----
 
 ## ⚙️ Installation
 
